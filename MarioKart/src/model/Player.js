@@ -4,11 +4,16 @@ export default class Player {
     Manobrabilidade;
     Poder;
     Pontos;
-  constructor(Nome, Velocidade, Manobrabilidade, Poder, Pontos) {
-    this.Nome = Nome;
-    this.Velocidade = Velocidade;
-    this.Manobrabilidade = Manobrabilidade;
-    this.Poder = Poder;
-    this.Pontos = Pontos;
-  }
+
+    constructor(Nome, Velocidade, Manobrabilidade, Poder, Pontos) {
+        this.Nome = Nome;
+        this.Velocidade = Velocidade;
+        this.Manobrabilidade = Manobrabilidade;
+        this.Poder = Poder;
+        this.Pontos = Pontos;
+    }
+
+    async updatePoints(points) {
+        this.Pontos += points;
+    }
 }
