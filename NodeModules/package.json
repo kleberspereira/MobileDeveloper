@@ -1,7 +1,0 @@
-{
-  "name": "NodeModules",
-  "version": "1.0.0",
-  "license": "ISC",
-  "main": "src/index.js",
-  "type": "module"
-}
