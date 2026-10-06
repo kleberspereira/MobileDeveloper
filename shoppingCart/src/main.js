@@ -5,7 +5,7 @@ const myCart = [];
 const wishList = [];
 
 console.log("Welcome to your shopping cart.");
-console.log(`---------------------------------------------------------------------`);
+console.log(`----------------------------------------------------------------------`);
 
 const item1 = await createItem("Apple", 29.99, 1);
 const item2 = await createItem("Banana", 1.0, 3);
@@ -26,7 +26,7 @@ await cartService.updateItem(myCart, item2);
 
 await cartService.displayCart(myCart);
 
-console.log(`---------------------------------------------------------------------`);
+console.log(`----------------------------------------------------------------------`);
 console.log(`Cart total: $${(await cartService.calculateTotal(myCart)).toFixed(2)}`);
 //console.log(`Wish list total: $${(await cartService.calculateTotal(wishList)).toFixed(2)}`);
-console.log(`---------------------------------------------------------------------`);
+console.log(`----------------------------------------------------------------------`);
