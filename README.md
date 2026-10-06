@@ -23,7 +23,7 @@ Este repositório reúne meus projetos e códigos como um currículo prático.
 
 | Projeto | Descrição | Tecnologias |
 |---------|-----------|-------------|
-| [Nome do projeto](link) | Breve descrição | NODE |
+| [MarioKart](https://github.com/kleberspereira/MobileDeveloper/tree/main/MarioKart) | Simulador Mario kart via console | JS |
 
 ## 📫 Contato
 
