@@ -1,0 +1,10 @@
+{
+  "name": "npmPackages",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "src/main.js",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^6.0.1"
+  }
+}
