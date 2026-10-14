@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Hello, World!\" && exit 1",
-    "start": "node src/index.js"
+    "prebuild": "npm install",
+    "start:dev": "node src/index.js",
+    "start:watch": "node --watch src/index.js"
   },
   "keywords": [],
   "author": "",
