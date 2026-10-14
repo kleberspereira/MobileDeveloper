@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Hello, World!\" && exit 1"
+    "test": "echo \"Hello, World!\" && exit 1",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
