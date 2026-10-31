@@ -4,13 +4,19 @@
   "description": "QR code generator",
   "main": "src/main.js",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node --env-file=.env src/main.js"
   },
-  "keywords": ["QRCODE", "generator", "nodejs"],
+  "keywords": [
+    "QRCODE",
+    "generator",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "prompt": "^1.3.0"
+    "chalk": "^6.0.1",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
