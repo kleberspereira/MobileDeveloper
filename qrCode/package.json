@@ -4,10 +4,13 @@
   "description": "QR code generator",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/main.js"
   },
-  "keywords": [],
+  "keywords": ["QRCODE", "generator", "nodejs"],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "prompt": "^1.3.0"
+  }
 }
